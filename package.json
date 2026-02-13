@@ -1,0 +1,33 @@
+{
+  "name": "jasher-bot",
+  "version": "1.7.0",
+  "description": "HanzPiwTechnical ☇ Jasher Bot° - Telegram Bot with Premium, Auto Share, Broadcast, Owner & CEO System",
+  "main": "hanzpiwjasseb",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node hanzpiwjasseb",
+    "dev": "nodemon hanzpiwjasseb"
+  },
+  "keywords": [
+    "telegram-bot",
+    "node-telegram-bot-api",
+    "broadcast-bot",
+    "autoshare-bot",
+    "premium-bot"
+  ],
+  "author": "HanzPiwTechnical",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "chalk": "^4.1.2",
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.6.11",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
